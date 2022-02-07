@@ -99,6 +99,10 @@ public class CustomP6spyPrettySqlFormatter implements MessageFormattingStrategy 
     }
 
     private boolean checkExcludePackages(String charSequence) {
+        if (CustomP6spyProperties.excludePackages == null || CustomP6spyProperties.excludePackages.length == 0) {
+            return true;
+        }
+
         return stream(CustomP6spyProperties.excludePackages).noneMatch(charSequence::contains);
     }
 }
