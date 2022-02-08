@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.keencho.lib</groupId>
     <artifactId>keencho-p6spy</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>keencho-lib-custom-p6spy</name>
     <description>keencho-lib-custom-p6spy</description>
     <properties>
