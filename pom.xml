@@ -10,11 +10,11 @@
     </parent>
     <groupId>com.keencho.lib</groupId>
     <artifactId>keencho-p6spy</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <name>keencho-lib-custom-p6spy</name>
     <description>keencho-lib-custom-p6spy</description>
     <properties>
-        <java.version>8</java.version>
+        <java.version>11</java.version>
     </properties>
     <dependencies>
 
@@ -40,13 +40,5 @@
             <version>1.8.0</version>
         </dependency>
     </dependencies>
-
-    <distributionManagement>
-        <repository>
-            <id>keencho-github-lib-p6spy</id>
-            <name>keencho</name>
-            <url>https://maven.pkg.github.com/keencho/lib-custom-p6spy</url>
-        </repository>
-    </distributionManagement>
 
 </project>
