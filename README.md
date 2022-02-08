@@ -3,7 +3,6 @@
 - 사이드 프로젝트에 생성시 그때그때 설정하기 귀찮아서 만든 custom library  
 - spring boot, spring data jpa 혹은 hibernate 사용시 유용
 - [spring-boot-starter-p6spy](https://github.com/gavlyukovskiy/spring-boot-data-source-decorator) 를 바탕으로 한다.  
-- jitpack 에 배포되어있으므로 jdk 8을 기반으로 한다.
 
 ## 의존성 추가  
 
